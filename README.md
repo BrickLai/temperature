@@ -42,7 +42,7 @@ convert.addEventListener('click', () => {
     }
 });
 
-<a href="https://www.w3schools.com">Click here</a> to exchange the temperature
+<a href="https://bricklai.github.io/temperature/converter.html">Click here</a> to exchange the temperature
 
 <h3>Reference</h3>
 <p><a href="https://en.wikipedia.org/wiki/Fahrenheit">Fahrenheit</a></p>
