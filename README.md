@@ -46,6 +46,6 @@ convert.addEventListener('click', () => {
 
 <h3>Reference</h3>
 <p><a href="https://en.wikipedia.org/wiki/Fahrenheit">Fahrenheit</a></p>
-<a href="https://en.wikipedia.org/wiki/Celsius">Celsius</a>
-<a href="https://www.w3schools.com/jsref/prop_node_innertext.asp">innerText</a>
-<a href="https://www.w3schools.com/js/js_if_else.asp">if else</a>
+<p><a href="https://en.wikipedia.org/wiki/Celsius">Celsius</a></p>
+<p><a href="https://www.w3schools.com/jsref/prop_node_innertext.asp">innerText</a></p>
+<p><a href="https://www.w3schools.com/js/js_if_else.asp">if else</a></p>
