@@ -49,7 +49,7 @@ convert.addEventListener('click', () => {
 ```
 
 <h3>Launch</h3>
-This tool is launched already, users can click the link to use it.
+<p>This tool is launched already, users can click the link to use it.</p>
 <a href="https://bricklai.github.io/temperature/converter.html">Click here</a> to exchange the temperature
 
 <h3>Reference</h3>
