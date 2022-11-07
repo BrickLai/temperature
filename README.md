@@ -2,11 +2,15 @@
 
 <li>Introduction - the project's aim</li>
 <li>Technologies</li>
+<li>Key Code</li>
 <li>Launch</li>
+<li>Reference</li>
 
 <h3>Introduction - the project's aim</h3>
 <p>
     This is a temperature exchange tool, which users can exchange from Fahrenheit to Celsius, and from Celsius to Fahrenheit. Input a valid number of temperature, choose one method and click the convert button, then the valid temperature will be exchanged to an equal. For example, if you input 100, and choose to Celsius,it will replies an equal 100F = 37.78C.
+</p>
+<p>
 Also, press the modes button, it will change between the light mode and the dark mode.
 </p>
 
@@ -44,6 +48,8 @@ convert.addEventListener('click', () => {
 });
 ```
 
+<h3>Launch</h3>
+This tool is launched already, users can click the link to use it.
 <a href="https://bricklai.github.io/temperature/converter.html">Click here</a> to exchange the temperature
 
 <h3>Reference</h3>
