@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head> 
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="author" content="Brick">
+            <meta name="description" content="My project">
+            <meta name="keywords" content="HTML, CSS">
+            <link rel="stylesheet" href="assets/style/converter.css" media="screen"> 
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap">         
+            <script src="assets/script/converter.js" defer></script>
+            <title>JavaScript DOM</title>
+        </head>
+        <body>
+            <header>
+                <P class="nav-01">Converter</P>
+                <div class="nav-02">
+                    <p>Calendar</p>
+                    <p>Weather</p>
+                    <p>Podcasts</p>
+                </div>
+            </header>
+            <main class="main">
+                <div class="container">
+                    <div class="box-01">
+                        <h2 class="title">Temperature converter</h2>
+                    <form>
+                        <input type="text" class="num" placeholder="" value="">
+                        <input type="button" class="convert" value="Convert">
+                        <div class="radio-01">
+                            <div class="radio-02">
+                                <input type="radio" class="choose-01" >
+                                <p class = "exchange-01">to Fahrenheit</p>                           
+                            </div>
+                            <div class="radio-02">
+                                <input type="radio" class="choose-02" >
+                                <p class = "exchange-02">to Celsius</p>
+                            </div>
+                        </div>
+                        <div class="result">
+                            <p></p>
+                        </div>
+                    </form>
+                    </div>
+                    <div class="light-01">
+                        <input type="button" class="light-02" value="Modes">
+                    </div>
+                </div>              
+            </main>
+
+        </body>
+    </html>

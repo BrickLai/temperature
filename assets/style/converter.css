@@ -1,0 +1,130 @@
+@import "./reset.css";
+
+:root {
+    --app-bg-dark: #1a1d28;
+    --app-red: #ff3c57;
+    --app-green: #33ab4e;
+    --app-blue: #3c57ff;
+    --app-purple: #833cff;
+    --app-orange: #ff833c;
+}
+
+/*
+body {
+    background-color: var(--app-bg-dark);
+}
+*/
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+    height:calc(100vh - 56px);
+}
+.main {
+    background-color: #fff;
+
+}
+
+header {
+    width: auto;
+    height: 56px;
+    background-color: #833cff;
+    line-height: 56px;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 200px;
+}
+
+.nav-01 {
+    font-size: 24px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.nav-02 {
+    display: flex;
+    gap:30px;
+    color: antiquewhite;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.box-01 {
+    padding: 30px;
+}
+
+input[type="text"] {
+    width: 320px;
+    height: 46px;
+    text-align: left;
+    border: 1px solid var(--app-blue);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    transition: all 0.25s ease-in-out;
+    color: #000;
+    cursor: pointer;
+    padding: 0 10px;
+  }
+
+input[type="button"] {
+    width: 120px;
+    height: 46px;
+    text-align: center;
+    background-color: var(--app-blue);
+    border: 1px solid var(--app-blue);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    transition: all 0.25s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+
+  .result {
+    width: 320px;
+    height: 46px;
+    text-align: left;
+    border: 1px solid var(--app-blue);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 26px 30px -10px, rgba(0, 0, 0, 0.1) 0px 16px 10px -10px;
+  }
+
+  .result p {
+    font-size: 17px;
+    font-size: 400;
+    color: #fff;
+    line-height: 46px;
+    cursor: default;
+  }
+
+  input[type="radio"] {
+    -webkit-appearance: checkbox;
+    border: 1px solid var(--app-blue);
+    letter-spacing: 0.2px;
+    transition: all 0.25s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .radio-01, .radio-02 {
+    display: flex;
+    margin:10px;
+  }
+
+  .choose-01, .choose-02{
+    margin-right: 10px;
+  }
+
+  .light-02{
+
+    position: fixed;
+
+  }
