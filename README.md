@@ -1,4 +1,4 @@
-<h2>temperature exchange tool</h2>
+<h2>Temperature exchange tool</h2>
 
 <li>Introduction - the project's aim</li>
 <li>Technologies</li>
